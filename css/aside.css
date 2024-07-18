@@ -1,0 +1,36 @@
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6236ff;
+  border-top-right-radius: 4rem;
+}
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  gap: 4rem;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+.nav-list > .active {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.nav-list > .active .fa {
+  color: #fff;
+}
+.nav-list > a .fa {
+  font-size: 1.5rem;
+  color: #b7a4ff;
+}
+.nav-list > .title {
+  color: #b7a4ff;
+  font-size: 1rem;
+  text-decoration: none;
+}

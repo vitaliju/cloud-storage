@@ -2,6 +2,31 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
-  padding: 2rem;
+  margin-top: 1.2rem;
+  padding: 1rem;
+}
+form > input {
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem 1rem 2rem;
+  height: 3rem;
+  width: 18rem;
+  border: 0.1rem solid #ccc;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  color: #ccc;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  gap: 1rem;
+}
+.user p {
+  font-size: 1.5rem;
+}
+.user img {
+  border-radius: 50%;
+  width: 2.5rem;
 }

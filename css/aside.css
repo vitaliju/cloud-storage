@@ -8,7 +8,7 @@ aside {
 .main-nav {
   display: flex;
   flex-direction: column;
-  margin-top: 10rem;
+  margin-top: 12rem;
   gap: 4rem;
 }
 .nav-list {

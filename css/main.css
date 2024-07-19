@@ -9,3 +9,34 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #fafafa;
 }
+.folderBar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+.addNew {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+  line-height: 1em;
+  border: 0.1rem solid #aeaed2;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  gap: 0.1rem;
+}
+.addNew .plus {
+  margin-top: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #aeaed2;
+}
+.addNew .add {
+  text-align: center;
+  color: #aeaed2;
+}

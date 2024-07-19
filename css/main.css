@@ -7,21 +7,20 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #fafafa;
+  background-color: #eeecf2;
 }
 .folderBar {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
 }
 .addNew {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 10rem;
+  height: 10.9rem;
   align-items: center;
   justify-content: center;
   line-height: 1em;
@@ -39,4 +38,62 @@ body {
 .addNew .add {
   text-align: center;
   color: #aeaed2;
+}
+.folderCards {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 11rem;
+  padding: 1rem;
+  margin-left: -4.5rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 1rem;
+}
+.folderCards .link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: -1rem;
+}
+.progress-bar .progress {
+  --h: 0.5rem;
+  width: 100%;
+  height: var(--h);
+  background-color: #ededf5;
+  border-radius: var(--h);
+}
+.progress-bar .bar {
+  width: 40%;
+  height: 100%;
+  border-radius: inherit;
+}
+.progress-bar .values {
+  width: 100%;
+  height: 100%;
+  background-color: #ff6c40;
+  border-radius: inherit;
+  animation-name: loading;
+  animation-duration: 3s;
+}
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.upgrade {
+  display: flex;
+  border-radius: 1rem;
+  margin-left: -8.5rem;
+}
+.upgrade img {
+  width: 100%;
+  height: 175px;
 }

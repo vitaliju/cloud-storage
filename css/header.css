@@ -11,7 +11,7 @@ form > input {
   padding: 1rem 1.2rem 1rem 2rem;
   height: 3rem;
   width: 18rem;
-  border: 0.1rem solid #ccc;
+  border: none;
   background-color: #fff;
   border-radius: 1.5rem;
   color: #ccc;

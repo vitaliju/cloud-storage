@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #eeecf2;
+  background-color: #f8f8f8;
 }
 .folderBar {
   display: grid;
@@ -27,7 +27,7 @@ body {
   border: 0.1rem solid #aeaed2;
   border-radius: 1.5rem;
   padding: 0.5rem;
-  gap: 0.1rem;
+  gap: 1rem;
 }
 .addNew .plus {
   margin-top: 2rem;
@@ -37,7 +37,12 @@ body {
 }
 .addNew .add {
   text-align: center;
+  text-decoration: none;
   color: #aeaed2;
+  margin-bottom: 2rem;
+}
+.add:hover {
+  text-decoration: underline;
 }
 .folderCards {
   display: flex;
@@ -45,10 +50,11 @@ body {
   width: 80%;
   height: 11rem;
   padding: 1rem;
-  margin-left: -4.5rem;
+  margin-left: -4.9rem;
   background-color: #fff;
   border: none;
   border-radius: 1rem;
+  box-shadow: #e8e6ee 0px 5px 15px;
 }
 .folderCards .link {
   display: flex;
@@ -100,16 +106,16 @@ body {
 .bigCards {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
 }
 .storage {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  padding: 1rem 2rem;
+  padding: 1rem 5rem 1rem 2.5rem;
   border-radius: 1.5rem;
+  box-shadow: #e8e6ee 0px 5px 15px;
   gap: 1rem;
 }
 .storage .title {
@@ -124,6 +130,10 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: #d6d8d9;
+}
+.title a:hover {
+  text-decoration: underline;
+  color: #aeaed2;
 }
 .storage .data {
   display: flex;
@@ -156,7 +166,8 @@ hr {
   background-color: #fff;
   padding: 1rem 2rem;
   border-radius: 1.5rem;
-  gap: 1rem;
+  box-shadow: #e8e6ee 0px 5px 15px;
+  gap: 0.9rem;
 }
 .recentTitle {
   display: flex;
@@ -168,4 +179,19 @@ hr {
   font-weight: bold;
   text-decoration: none;
   color: #ccc;
+}
+.recentTitle a:hover {
+  text-decoration: underline;
+  color: #aeaed2;
+}
+.recentFiles .files {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+.files .file {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

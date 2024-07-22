@@ -97,3 +97,75 @@ body {
   width: 100%;
   height: 175px;
 }
+.bigCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+.storage {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  gap: 1rem;
+}
+.storage .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title p {
+  font-weight: bold;
+}
+.title a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #d6d8d9;
+}
+.storage .data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+.data .dataSize {
+  margin-top: -5.5rem;
+}
+.dataSize .para {
+  color: #ccc;
+}
+hr {
+  width: 90%;
+  margin-left: 3.5rem;
+}
+.storage .month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3rem;
+  color: #ccc;
+  gap: 1.7rem;
+}
+.recentFiles {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  gap: 1rem;
+}
+.recentTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+.recentTitle a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ccc;
+}
